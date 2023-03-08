@@ -5,3 +5,29 @@
     font-family: God of War;
     src: url(../fonts/GODOFWAR.TTF);
 }
+body {
+    font-family: Arial;
+    background-color: #CCC;
+}
+header {
+    padding: 0 50px;
+}
+header figure {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+.title {
+    text-align: center;
+    font-family: 'God of War', Arial;
+}
+.header_images {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+}
+.header_images img {
+    width: 300px;
+    max-width: 50%;
+}
