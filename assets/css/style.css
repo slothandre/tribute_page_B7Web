@@ -55,9 +55,11 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
-footer a {
+footer a,
+.biography a {
     text-decoration: none;
     color: #777;
+    text-shadow: 1px 1px 2px #000;
 }
 .footer_icon {
     display: flex;
